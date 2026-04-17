@@ -1,0 +1,15 @@
+{
+    "row_count": 78660,
+    "column_count": 25,
+    "unique_matches": 335,
+    "unique_batters": 0,
+    "unique_bowlers": 292,
+    "unique_venues": 10,
+    "total_runs": 107475,
+    "total_wickets": 0,
+    "phase_distribution": {
+        "middle": 36421,
+        "powerplay": 24968,
+        "death": 17271
+    }
+}

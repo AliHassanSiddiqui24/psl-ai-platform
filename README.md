@@ -158,3 +158,20 @@ It supports:
 - matchup analysis
 - feature engineering
 - model development
+
+## Basic EDA Layer
+
+The project includes a basic exploratory data analysis layer for both:
+- cleaned ball-by-ball data
+- player profile master table
+
+Generated outputs include:
+- JSON summary reports
+- missing value plots
+- phase distribution plots
+- runs distribution plots
+- player runs/wickets distributions
+- exported summary CSV tables
+
+EDA outputs are stored in:
+- `reports/eda/`
