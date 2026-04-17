@@ -288,3 +288,20 @@ Output folder:
 - `reports/eda/injury/rolling_workload/`
 
 These features form the core engineering base for the injury risk prediction module.
+
+## Injury Module — Proxy Target Strategy and Correlation Analysis
+
+Because true medical injury labels are not currently available, the project uses a transparent workload-related proxy target strategy instead of fabricating false injury labels.
+
+Current additions include:
+- workload/fatigue feature correlation analysis
+- correlation heatmap and CSV export
+- future absence-based injury proxy dataset
+- bowler-level proxy event summary
+- interpretation notes and methodological documentation
+
+Output folders:
+- `reports/eda/injury/correlation_analysis/`
+- `reports/eda/injury/proxy_target/`
+
+This creates a scientifically honest bridge between raw workload features and future injury-risk modeling.
