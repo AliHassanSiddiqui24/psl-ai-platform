@@ -17,3 +17,18 @@ class DataValidator:
         except Exception as e:
             logger.exception("File validation failed.")
             raise DataValidationError(str(e))
+
+    def validate_directory_has_files(self, directory_path: Path) -> bool:
+        try:
+            if not directory_path.exists():
+                raise DataValidationError(f"Directory does not exist: {directory_path}")
+
+            files = list(directory_path.glob("*"))
+            if len(files) == 0:
+                raise DataValidationError(f"No files found in directory: {directory_path}")
+
+            logger.info("Validated directory has %d files: %s", len(files), directory_path)
+            return True
+        except Exception as e:
+            logger.exception("Directory validation failed.")
+            raise DataValidationError(str(e))

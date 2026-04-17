@@ -56,3 +56,15 @@ The project follows a modular source-code structure:
 - `src/utils/` → logging, exceptions, helpers
 
 This structure is designed to support a professional ML system rather than a notebook-only workflow.
+## Raw Data Source
+
+The project uses raw cricket match data from Cricsheet.
+
+Current raw data setup:
+- Source: https://cricsheet.org/
+- Competition focus: PSL
+- Raw files stored in: `data/raw/cricsheet_psl/matches/`
+- Metadata stored in: `data/raw/cricsheet_psl/download_metadata.json`
+- File inventory stored in: `data/raw/cricsheet_psl/dataset_inventory.csv`
+
+Raw data is kept untouched and will be parsed into structured datasets in later steps.
