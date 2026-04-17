@@ -251,3 +251,23 @@ Output folder:
 - `reports/eda/weakness/bowler_type_matchups/`
 
 This analysis helps identify tactical vulnerabilities against specific bowling categories.
+
+## Injury Module EDA — Bowler Workload Trends
+
+The project includes a workload trend analysis layer for bowlers as the first analytical foundation for injury risk modeling.
+
+Current outputs include:
+- match-level bowler workload table
+- top workload bowlers plot
+- selected bowler workload trend plots
+- workload summary statistics export
+- interpretation notes
+
+Output folder:
+- `reports/eda/injury/workload_trends/`
+
+This analysis supports future injury risk features such as:
+- rolling workload
+- fatigue index
+- recent match density
+- recovery window analysis
