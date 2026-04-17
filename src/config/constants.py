@@ -26,3 +26,4 @@ PLAYER_MANUAL_ATTRIBUTES_FILE_NAME = "player_manual_attributes_template.csv"
 PLAYER_DERIVED_STATS_FILE_NAME = "player_derived_stats.csv"
 # Parsed data files
 BALL_BY_BALL_FILE_NAME = "psl_ball_by_ball.csv"
+CLEAN_BALL_BY_BALL_FILE_NAME = "psl_ball_by_ball_clean.csv"

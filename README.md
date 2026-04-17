@@ -120,3 +120,22 @@ This dataset forms the core analytical base for:
 - player workload analysis
 - matchup analysis
 - later feature engineering
+
+## Cleaned Ball-by-Ball Dataset
+
+The parsed ball-by-ball dataset is cleaned and standardized into a processed analysis-ready dataset.
+
+Processed output:
+- `data/processed/ball_by_ball/psl_ball_by_ball_clean.csv`
+
+Cleaning includes:
+- text standardization
+- numeric type fixing
+- datetime conversion
+- duplicate removal
+- missing value handling
+- derived columns such as:
+  - `phase`
+  - `ball_id`
+
+This cleaned dataset is the main input for EDA, feature engineering, and model building.
