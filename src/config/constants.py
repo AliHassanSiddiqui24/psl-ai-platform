@@ -19,3 +19,8 @@ DEFAULT_LOG_LEVEL = "INFO"
 
 # Random seed
 RANDOM_SEED = 42
+
+# Player data files
+PLAYER_MASTER_FILE_NAME = "player_master.csv"
+PLAYER_MANUAL_ATTRIBUTES_FILE_NAME = "player_manual_attributes_template.csv"
+PLAYER_DERIVED_STATS_FILE_NAME = "player_derived_stats.csv"

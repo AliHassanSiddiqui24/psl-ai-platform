@@ -68,3 +68,25 @@ Current raw data setup:
 - File inventory stored in: `data/raw/cricsheet_psl/dataset_inventory.csv`
 
 Raw data is kept untouched and will be parsed into structured datasets in later steps.
+
+## Player Enrichment Layer
+
+The project uses a professional player metadata strategy instead of relying on fragile scraping.
+
+Current player data design includes:
+
+1. `player_master.csv`  
+   A registry of unique players observed in the dataset.
+
+2. `player_manual_attributes_template.csv`  
+   A curated template for attributes such as:
+   - batting hand
+   - bowling style
+   - player role
+   - country
+   - overseas status
+
+3. Future derived player stats  
+   To be computed directly from parsed ball-by-ball Cricsheet data.
+
+This design is more stable, maintainable, and production-friendly than using uncontrolled scraping as a core dependency.
