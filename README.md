@@ -271,3 +271,20 @@ This analysis supports future injury risk features such as:
 - fatigue index
 - recent match density
 - recovery window analysis
+
+## Injury Module EDA — Rolling Workload and Fatigue Signals
+
+The project includes rolling workload feature engineering for bowlers, including:
+
+- last 7-day workload
+- last 14-day workload
+- recent match density
+- days since last match
+- back-to-back match indicator
+- short recovery flag
+- heuristic fatigue signal score
+
+Output folder:
+- `reports/eda/injury/rolling_workload/`
+
+These features form the core engineering base for the injury risk prediction module.
