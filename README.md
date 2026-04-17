@@ -139,3 +139,22 @@ Cleaning includes:
   - `ball_id`
 
 This cleaned dataset is the main input for EDA, feature engineering, and model building.
+## Analytical Data Model
+
+The project now follows a fact + dimension analytical design.
+
+### Fact Table
+- `data/processed/ball_by_ball/psl_ball_by_ball_clean.csv`
+
+### Player Dimension Tables
+- `data/interim/player_data/player_master.csv`
+- `data/processed/player_data/player_manual_attributes_clean.csv`
+- `data/processed/player_data/player_derived_stats.csv`
+- `data/processed/player_data/player_profile_master.csv`
+
+This design is more stable and professional than creating a single giant merged table too early.
+It supports:
+- player profiling
+- matchup analysis
+- feature engineering
+- model development
