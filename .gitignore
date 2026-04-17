@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+psl_env/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Logs
+logs/
+*.log
+
+# ML artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Data files (optional - raw large data often not committed)
+data/raw/
+data/interim/
+data/processed/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
