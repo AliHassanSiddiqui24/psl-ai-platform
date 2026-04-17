@@ -37,3 +37,9 @@ Build a professional end-to-end ML system that can be used as a strong portfolio
 
 ## Status
 Project setup in progress.
+## Setup Instructions
+
+### 1. Create virtual environment
+```bash
+python -m venv psl_env
+psl_env\Scripts\activate
