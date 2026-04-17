@@ -90,3 +90,33 @@ Current player data design includes:
    To be computed directly from parsed ball-by-ball Cricsheet data.
 
 This design is more stable, maintainable, and production-friendly than using uncontrolled scraping as a core dependency.
+## Parsed Ball-by-Ball Dataset
+
+Raw Cricsheet YAML files are parsed into a structured delivery-level dataset.
+
+Current parsed output:
+- File: `data/interim/ball_by_ball/psl_ball_by_ball.csv`
+
+Key delivery-level columns include:
+- match_id
+- innings_number
+- batting_team
+- over
+- ball
+- batter
+- bowler
+- non_striker
+- runs_batter
+- runs_extras
+- runs_total
+- wicket
+- wicket_type
+- player_out
+- venue
+- match_date
+
+This dataset forms the core analytical base for:
+- batsman weakness detection
+- player workload analysis
+- matchup analysis
+- later feature engineering
