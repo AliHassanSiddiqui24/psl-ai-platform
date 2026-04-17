@@ -175,3 +175,21 @@ Generated outputs include:
 
 EDA outputs are stored in:
 - `reports/eda/`
+
+## Weakness Analysis EDA — Dismissal Patterns
+
+The first domain-specific weakness analysis step focuses on batsman dismissal patterns.
+
+Current outputs include:
+- top dismissed batters
+- player-specific dismissal type breakdowns
+- selected batter comparison charts
+- dismissal summary CSV exports
+
+Output folder:
+- `reports/eda/weakness/`
+
+This analysis helps identify early signals for:
+- technical batting weaknesses
+- pressure-related dismissal patterns
+- matchup-specific vulnerability exploration
