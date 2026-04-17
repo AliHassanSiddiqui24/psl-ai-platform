@@ -193,3 +193,17 @@ This analysis helps identify early signals for:
 - technical batting weaknesses
 - pressure-related dismissal patterns
 - matchup-specific vulnerability exploration
+
+## Weakness Heatmap Foundation
+
+Because Cricsheet ball-by-ball data does not directly contain physical bowling line and length coordinates, the project uses an honest proxy-based weakness heatmap strategy at this stage.
+
+Current proxy heatmaps include:
+- phase × wicket type
+- bowler × wicket type
+- phase × bowler
+
+Outputs are stored in:
+- `reports/eda/weakness/heatmaps/`
+
+This is a professional and defensible alternative until true spatial tracking or computer vision-based delivery location data is added in later project phases.
