@@ -207,3 +207,26 @@ Outputs are stored in:
 - `reports/eda/weakness/heatmaps/`
 
 This is a professional and defensible alternative until true spatial tracking or computer vision-based delivery location data is added in later project phases.
+
+## Weakness Analysis EDA — Phase-wise Batsman Performance
+
+The project includes phase-wise batting analysis across:
+- powerplay
+- middle overs
+- death overs
+
+Current outputs include:
+- phase-level batting summary tables
+- strike rate by phase charts
+- dismissals by phase charts
+- runs by phase for top batters
+- phase weakness signal exports
+
+Output folder:
+- `reports/eda/weakness/phase_analysis/`
+
+This analysis supports early detection of:
+- phase-specific weakness
+- pressure sensitivity
+- scoring slowdowns
+- dismissal concentration by innings phase
