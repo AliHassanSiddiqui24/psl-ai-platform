@@ -230,3 +230,24 @@ This analysis supports early detection of:
 - pressure sensitivity
 - scoring slowdowns
 - dismissal concentration by innings phase
+
+## Weakness Analysis EDA — Batsman vs Bowler Type Matchups
+
+The project includes tactical matchup analysis between batsmen and simplified bowler types such as:
+- Left-arm pace
+- Right-arm pace
+- Off-spin
+- Leg-spin
+- Left-arm orthodox
+- Left-arm wrist-spin
+
+Current outputs include:
+- batter vs bowler type summary table
+- strike rate by bowler type plots
+- dismissal rate by bowler type plots
+- weakness signal exports
+
+Output folder:
+- `reports/eda/weakness/bowler_type_matchups/`
+
+This analysis helps identify tactical vulnerabilities against specific bowling categories.
