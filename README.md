@@ -43,3 +43,16 @@ Project setup in progress.
 ```bash
 python -m venv psl_env
 psl_env\Scripts\activate
+
+## Current Architecture
+
+The project follows a modular source-code structure:
+
+- `src/config/` → paths, settings, constants
+- `src/data/` → ingestion, validation, loading
+- `src/features/` → feature engineering logic
+- `src/models/` → model training and inference
+- `src/pipelines/` → runnable pipelines
+- `src/utils/` → logging, exceptions, helpers
+
+This structure is designed to support a professional ML system rather than a notebook-only workflow.
